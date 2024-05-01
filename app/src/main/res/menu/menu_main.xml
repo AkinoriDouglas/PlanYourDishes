@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/calculation"
+        android:title="Calculation"
+        app:showAsAction="never"
+        android:orderInCategory="0"
+        android:icon="@drawable/baseline_calculate_24"/>
+    <item
+        android:id="@+id/total_calorie"
+        android:title="Total Calorie"
+        app:showAsAction="never"
+        android:orderInCategory="1"
+        android:icon="@drawable/baseline_library_add_24"/>
+    <item
+        android:id="@+id/food_recipe"
+        android:title="Recipes"
+        app:showAsAction="never"
+        android:orderInCategory="2"
+        android:icon="@drawable/baseline_food_bank_24"/>
+</menu>
